@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:black;
+    background-color: rgb(194, 36, 36);
     font-family: sans-serif;
 }
 html{
@@ -15,6 +15,7 @@ html{
 .inner{
     max-width: 1160px;
     margin: 0 auto;
+   border: 1px solid black;
 }
 
 /* header starts */
@@ -22,7 +23,6 @@ html{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
     max-width: 95%;
 }
 h1{
@@ -71,8 +71,7 @@ h1{
 .marketing{
     display: flex;
     margin-top: 2rem;
-    justify-content: space-between;
-    margin-left: 20px;
+    justify-content: space-between;    
     max-width: 95%;
 }
 
@@ -190,7 +189,6 @@ h1{
 .two-section-info{
     display: flex;
     margin-top: 150px;
-    margin-left: 20px;
     max-width: 95%;
 }
 
@@ -330,7 +328,6 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
-    margin-left: 20px;
     max-width: 95%;
 }
 
@@ -398,7 +395,6 @@ h1{
     display: flex;
     color: white;
     margin-top: 120px;
-    margin-left: 20px;
     max-width: 95%;
 }
 
@@ -459,7 +455,6 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-left: 20px;
     max-width: 95%;
 }
 .two-images-section .white{
@@ -479,7 +474,7 @@ h1{
     transition: all 0.3s ease-in 0s;
 }
 .two-images-section .left-image-section img{
-    width: 100%;
+    width: 98%;
     border-radius: 5%;
 }
 .two-images-section .left-image-section .flex-use{
@@ -509,7 +504,7 @@ h1{
     transition: all 0.3s ease-in 0s;
 }
 .two-images-section .right-image-section img{
-    width: 100%;
+    width: 98%;
     border-radius: 5%;
 }
 .two-images-section .right-image-section .flex-use{
@@ -542,7 +537,6 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
-    margin-left: 20px;
     max-width: 95%;
 }
 .other-two-images-section .other-white{
@@ -562,7 +556,7 @@ h1{
     transition: all 0.3s ease-in 0s;
 }
 .other-two-images-section .other-left-image-section img{
-    width: 100%;
+    width: 98%;
     border-radius: 5%;
 }
 .other-two-images-section .other-left-image-section .other-flex-use{
@@ -592,7 +586,7 @@ h1{
     transition: all 0.3s ease-in 0s;
 }
 .other-two-images-section .other-right-image-section img{
-    width: 100%;
+    width: 95%;
     border-radius: 5%;
 }
 .other-two-images-section .other-right-image-section .other-flex-use{
@@ -628,7 +622,6 @@ h1{
     margin-top: 180px;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
     max-width: 95%;
 }
 
@@ -673,7 +666,6 @@ h1{
     display: flex;
     color: white;
     margin-top: 180px;
-    margin-left: 20px;
     max-width: 95%;
 }
 
@@ -737,7 +729,6 @@ h1{
     display: flex;
     justify-content: space-around;
     margin-top: 180px;
-    margin-left: 20px;
     max-width: 95%;
 }
 .three-section .same-box{
@@ -848,7 +839,7 @@ h1{
 
 .three-big-section{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    margin-top: 80px;
    max-width: 95%;
 }
@@ -960,7 +951,6 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
-    margin-left: 20px;
     max-width: 95%;
 }
 .list-section .first-list-section{
@@ -1096,7 +1086,7 @@ h1{
 
 /* footer starts  */
 footer{
-    max-width: 95%;
+    max-width: 100%;
 }
 footer hr{
     margin-top: 200px;
@@ -1212,7 +1202,7 @@ footer p .color-white{
     
     }
     .logo-div .logo{
-        width: 15%;
+        max-width:95%;
         display: flex;
         justify-content: space-around;
     }
